@@ -51,6 +51,7 @@
 .sub_word {
     /*글을 양쪽 정렬*/
     text-align: justify;
+    line-height: 2em;
 }
 
 #footer {
