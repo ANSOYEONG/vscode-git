@@ -1,0 +1,53 @@
+@media (max-width:768px) {
+    #header>img {
+        width: 50px;
+    }
+    #gnb_menu>li {
+        float: none;
+        width: 100%;
+        border: 0px solid #cccccc;
+    }
+    #menu_list {
+        float: none;
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    #menu_content {
+        float: none;
+        width: 100%;
+    }
+    .product {
+        width: 300px;
+        float: none;
+        margin: 30px auto;
+    }
+    .goods_img {
+        width: 300px;
+    }
+    .m_hide {
+        display: none;
+    }
+}
+
+
+/* 모바일 */
+
+@media (min-width:768px)and (max-width:992px) {}
+
+
+/* 모바일 가로 0r 조금 큰사이즈 */
+
+@media (min-width:992px)and (max-width:1200px) {}
+
+
+/* 테블릿 */
+
+@media (min-width:1200px) {
+    .w_hide {
+        display: none;
+    }
+}
+
+
+/* PC */

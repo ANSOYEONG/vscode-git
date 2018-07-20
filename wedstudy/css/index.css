@@ -12,21 +12,30 @@ li {
     background-color: red;
 }
 
+#header>img {
+    width: 200px;
+}
+
 #menu_list {
-    font-family: 'Nanum Brush Script', cursive;
+    /* font-family: 'Nanum Brush Script', cursive; */
     width: 20%;
+    height: 1000px;
     float: left;
     text-align: center;
+    background-color: brown;
+    box-shadow: 2px 0px 2px black;
 }
 
 #menu_content {
     width: 80%;
+    height: 1000px;
+    overflow: scroll;
     float: right;
 }
 
 .goods_img {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     border: 1px solid grey;
     border-radius: 10px;
 }
@@ -39,11 +48,14 @@ li {
 }
 
 .menu_btn {
-    width: 200px;
+    width: 150px;
     height: 50px;
+    color: white;
+    font-weight: bold;
     line-height: 50px;
     background-color: coral;
     margin-top: 20px;
+    margin-left: 20px;
     box-shadow: 2px 2px 2px black;
 }
 
@@ -53,6 +65,9 @@ li {
 }
 
 #footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
     height: 100px;
     line-height: 100px;
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
@@ -62,4 +77,32 @@ h4 {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+}
+
+#gnb {
+    background-color: black;
+}
+
+#gnb_menu {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#gnb_menu>li {
+    float: left;
+    width: 24.6%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: black;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+}
+
+#gnb_menu>li:hover {
+    background-color: #cccccc;
+}
+
+#gnb_menu>li>a {
+    color: white;
 }

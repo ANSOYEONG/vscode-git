@@ -1,0 +1,21 @@
+.round_button1 {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    background-color: pink;
+    box-shadow: 2px 2px 2px red;
+    text-align: center;
+    font-size: 15px;
+}
+
+.round_button2 {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    background-color: #eaeaea;
+    box-shadow: 2px 2px 2px gray;
+    text-align: center;
+    font-size: 15px;
+}
