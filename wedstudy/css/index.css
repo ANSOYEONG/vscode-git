@@ -97,6 +97,7 @@ h4 {
     background-color: black;
     border-left: 1px solid #eaeaea;
     border-right: 1px solid #eaeaea;
+    font-size: 15px;
 }
 
 #gnb_menu>li:hover {

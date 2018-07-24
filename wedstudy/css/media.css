@@ -33,12 +33,29 @@
 
 /* 모바일 */
 
-@media (min-width:768px)and (max-width:992px) {}
+@media (min-width:768px)and (max-width:992px) {
+    #gnb_menu>li {
+        width: 23.6%;
+    }
+    .menu_btn {
+        width: 120px;
+    }
+    .m_hide {
+        display: none;
+    }
+    .goods_img {
+        width: 300px;
+    }
+}
 
 
 /* 모바일 가로 0r 조금 큰사이즈 */
 
-@media (min-width:992px)and (max-width:1200px) {}
+@media (min-width:992px)and (max-width:1200px) {
+    .menu_btn {
+        width: 150px;
+    }
+}
 
 
 /* 테블릿 */
