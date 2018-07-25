@@ -1,0 +1,30 @@
+img {
+    border: 2px #cccccc solid;
+}
+
+#header {
+    background-color: #8a231c;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -20px;
+}
+
+#header>div>img {
+    width: 150px;
+}
+
+#footer {
+    background-color: burlywood;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+.navbar-header {
+    background-color: #8a5;
+}
+
+.navbar-collapse {
+    background-color: #8a5;
+}
