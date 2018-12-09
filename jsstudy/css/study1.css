@@ -1,0 +1,44 @@
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    body {
+        background-repeat: no-repeat;
+        background-image: url('../images/holo_bg.jpg');
+    }
+    
+    h1 {
+        height: 150px;
+        line-height: 150px;
+        font-size: 35px;
+        color: skyblue;
+        text-align: center;
+    }
+    
+    ul {
+        width: 1140px;
+        height: 180px;
+        background-color: aquamarine;
+        list-style: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    ul>li {
+        display: block;
+        float: left;
+        margin: 20px 5px 20px 5px;
+        line-height: 180px;
+    }
+    
+    ul>li img {
+        width: 180px;
+        height: 140px;
+    }
+    
+    p {
+        width: 780px;
+        margin: 0 auto;
+    }
